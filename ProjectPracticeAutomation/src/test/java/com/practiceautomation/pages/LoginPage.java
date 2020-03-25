@@ -27,13 +27,13 @@ public class LoginPage
 			//To launch firefox Browser
 			if (browser.equalsIgnoreCase("firefox")) 
 			{
-				System.setProperty("webdriver.gecko.driver","Driver//geckodriver.exe");
+				System.setProperty("webdriver.gecko.driver","Drivers//geckodriver.exe");
 				driver = new FirefoxDriver();
 			}
 			// To launch Chrome Browser
 			else if (browser.equalsIgnoreCase("chrome")) 
 			{
-				System.setProperty("webdriver.chrome.driver","Driver//chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver","Drivers//chromedriver.exe");
 				driver=new ChromeDriver();
 			}
 			
